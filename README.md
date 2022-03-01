@@ -22,7 +22,7 @@ DATABASES = {
 }
 ```
 
-3. Run migrations as normal with:
+1. Run migrations with:
 
 ```bash
 python manage.py migrate
