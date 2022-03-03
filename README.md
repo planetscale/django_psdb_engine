@@ -27,3 +27,5 @@ DATABASES = {
 ```bash
 python manage.py migrate
 ```
+
+**Note**: The `doc` and `.github/workflows` folders are for our licensing and not required to turn off foreign key constraints.
