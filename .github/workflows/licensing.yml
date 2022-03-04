@@ -19,4 +19,4 @@ jobs:
           fetch-depth: 0
       - run: sudo gem install license_finder
       - run: pip install -r requirements.txt
-      - run: license_finder
+      - run: license_finder --python_version=3
