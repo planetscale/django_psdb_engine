@@ -35,3 +35,15 @@
     :why:
     :versions: []
     :when: 2022-02-17 23:55:10.874938000 Z
+- - :permit
+  - bsd-2-clause
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-03-04 02:15:30.664880000 Z
+- - :permit
+  - bsd
+  - :who:
+    :why:
+    :versions: []
+    :when: 2022-03-04 02:15:57.577304000 Z
