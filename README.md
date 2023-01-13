@@ -1,6 +1,6 @@
 # PlanetScale support for Django
 
-Because Django's default migrations use foreign key constraints, and [PlanetScale doesn't support foreign key constraints](https://docs.planetscale.com/learn/operating-without-foreign-key-constraints), you need to disable them globally in Django.
+Because Django's default migrations use foreign key constraints, and [PlanetScale doesn't support foreign key constraints](https://planetscale.com/docs/learn/operating-without-foreign-key-constraints), you need to disable them globally in Django.
 
 This package subclasses the existing `django.db.backends.mysql` database engine to change the `supports_foreign_keys` value to `False`. This allows you to run Django migrations without issue.
 
